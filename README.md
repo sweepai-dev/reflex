@@ -228,6 +228,9 @@ We welcome contributions of any size! Below are some good ways to get started in
 
 We are actively looking for contributors, no matter your skill level or experience.
 
+## New Name Reflex
+Starting on June 30th we will be switching this project to the name reflex and pynecone.io will be reflex.dev
+
 ## License
 
 Pynecone is open-source and licensed under the [Apache License 2.0](LICENSE).
