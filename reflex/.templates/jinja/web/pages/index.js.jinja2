@@ -10,7 +10,7 @@
 export default function Component() {
   const [{{state_name}}, {{state_name|react_setter}}] = useState({{initial_state|json_dumps}})
   const [{{const.result}}, {{const.result|react_setter}}] = useState({{const.initial_result|json_dumps}})
-  const [notConnected, setNotConnected] = useState(false)
+  const [connectError, setConnectError] = useState(null)
   const {{const.router}} = useRouter()
   const {{const.socket}} = useRef(null)
   const { isReady } = {{const.router}}
@@ -41,7 +41,7 @@ export default function Component() {
 
     // Initialize the websocket connection.
     if (!{{const.socket}}.current) {
-      connect({{const.socket}}, {{state_name}}, {{state_name|react_setter}}, {{const.result}}, {{const.result|react_setter}}, {{const.router}}, {{transports}}, setNotConnected)
+      connect({{const.socket}}, {{state_name}}, {{state_name|react_setter}}, {{const.result}}, {{const.result|react_setter}}, {{const.router}}, {{transports}}, setConnectError)
     }
 
     // If we are not processing an event, process the next event.

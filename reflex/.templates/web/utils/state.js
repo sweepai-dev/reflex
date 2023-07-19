@@ -247,6 +247,7 @@ export const processEvent = async (
  * @param setResult The function to set the result.
  * @param endpoint The endpoint to connect to.
  * @param transports The transports to use.
+ * @param setConnectError The function to set any connection error.
  */
 export const connect = async (
   socket,
@@ -256,7 +257,7 @@ export const connect = async (
   setResult,
   router,
   transports,
-  setNotConnected
+  setConnectError,
 ) => {
   // Get backend URL object from the endpoint
   const endpoint = new URL(EVENTURL);
@@ -270,11 +271,11 @@ export const connect = async (
   // Once the socket is open, hydrate the page.
   socket.current.on("connect", () => {
     processEvent(state, setState, result, setResult, router, socket.current);
-    setNotConnected(false)
+    setConnectError(null)
   });
 
   socket.current.on('connect_error', (error) => {
-    setNotConnected(true)
+    setConnectError(error)
   });
 
   // On each received message, apply the delta and set the result.
