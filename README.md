@@ -228,8 +228,6 @@ Reflex has new releases and features coming every week! Make sure to :star: star
 
 In this section, we will provide a comprehensive tutorial that explains the project structure and concepts of the pcweb example project. We will cover the main features of Reflex used in pcweb, how they are implemented, and how they interact with each other. This tutorial is designed to help developers understand how to build a full-scale web app with Reflex.
 
-[Detailed tutorial goes here...]
-
 ## Contributing
 
 We welcome contributions of any size! Below are some good ways to get started in the Reflex community.
