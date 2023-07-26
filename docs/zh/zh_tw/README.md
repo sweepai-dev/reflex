@@ -220,10 +220,14 @@ Reflex 於 2022 年 12 月推出。
 
 -   :white_check_mark: **Public Alpha**: 任何人都可以安裝與使用 Reflex，或許包含問題， 但我們正在積極的解決他們。
 -   :large_orange_diamond: **Public Beta**: 對於非軟體產品來說足夠穩定。
--   **Public Hosting Beta**: _Optionally_, 部屬跟託管你的 Reflex!
+-   **Public Hosting Beta**: _Optionally_, 部署跟託管你的 Reflex!
 -   **Public**: 這版本的 Reflex 是可用於軟體產品的。
 
 Reflex 每周都有新功能和釋出新版本! 確保你按下 :star: 和 :eyes: watch 這個 repository 來確保知道最新資訊。
+
+## 理解 pcweb 範例專案
+
+在這個部分，我們將提供一個全面的教程，解釋 pcweb 範例專案的專案結構和概念。我們將介紹在 pcweb 中使用的 Reflex 的主要功能，如何實現它們，以及它們如何相互作用。這個教程旨在幫助開發人員理解如何使用 Reflex 建立全面的網頁應用程式。
 
 ## 貢獻
 
