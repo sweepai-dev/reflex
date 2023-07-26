@@ -226,7 +226,15 @@ Reflex has new releases and features coming every week! Make sure to :star: star
 
 ## Understanding the pcweb Example Project
 
-In this section, we will provide a comprehensive tutorial that explains the project structure and concepts of the pcweb example project. We will cover the main features of Reflex used in pcweb, how they are implemented, and how they interact with each other. This tutorial is designed to help developers understand how to build a full-scale web app with Reflex.
+In this section, we will provide a comprehensive tutorial that explains the project structure and concepts of the pcweb example project. The pcweb project is a full-scale web application built using Reflex. It serves as a practical example of how to use the main features of Reflex to build a robust and scalable web application.
+
+The architecture of the pcweb project is modular, with different components handling specific tasks. These components interact with each other through well-defined interfaces, ensuring a high degree of cohesion and low coupling. This design makes the pcweb project easy to understand, modify, and extend.
+
+The code structure of the pcweb project is organized in a logical and intuitive manner. The main parts of the code are located in the `src` directory, which is divided into subdirectories for each component. This organization makes it easy to navigate the code and understand how different parts of the project are related.
+
+The pcweb project uses a variety of technologies, including Python for the backend, Reflex for the frontend, and several libraries for tasks such as data handling and network communication. This combination of technologies allows the pcweb project to provide a rich and responsive user experience.
+
+This tutorial is designed to help developers understand how to build a full-scale web app with Reflex, using the pcweb project as an example.
 
 ## Contributing
 
